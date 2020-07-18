@@ -1,0 +1,117 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 15,
+        "name": "Demo Guru99 site customer creation by using outline",
+        "description": "",
+        "id": "customer-creation-in-demo-guru;demo-guru99-site-customer-creation-by-using-outline;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12692821600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launches telecom web application in Chrome",
+            "match": {
+              "location": "CustomerSteps.user_launches_telecom_web_application_in_Chrome()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1040035600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on the Add Customer",
+            "match": {
+              "location": "CustomerSteps.click_on_the_Add_Customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2560716800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Enter the customer fields \"Agu\",\"Aaba\",\"agu@gmail.com\",\"Erode\",\"9952131160\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Agu\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"Aaba\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"agu@gmail.com\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"Erode\"",
+                  "offset": 55
+                },
+                {
+                  "val": "\"9952131160\"",
+                  "offset": 63
+                }
+              ],
+              "location": "CustomerSteps.enter_the_customer_fields(String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1638375700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Click on submit button",
+            "match": {
+              "location": "CustomerSteps.click_on_submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48110000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Check the Customer ID is displayed",
+            "match": {
+              "location": "CustomerSteps.check_the_Customer_ID_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 129761700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Close the Browser",
+            "match": {
+              "location": "CustomerSteps.close_the_Browser()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Customer creation in Demo Guru",
+    "description": "",
+    "id": "customer-creation-in-demo-guru",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Features/Customer.feature",
+    "tags": []
+  }
+]

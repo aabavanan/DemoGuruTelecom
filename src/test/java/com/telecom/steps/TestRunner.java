@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @CucumberOptions(features = "src//test//resources//Features//Customer.feature",
 							glue = "com.telecom.steps",
 							dryRun = false,
-							plugin = "html:target//Cucumber-html-report",
+							plugin = {"html:target//Cucumber-html-report","json:target/reports.json"},
 							monochrome = true)
 public class TestRunner {
 

@@ -17,7 +17,7 @@ public class CustomerSteps {
 
 	@Given("User launches telecom web application in Chrome")
 	public void user_launches_telecom_web_application_in_Chrome() {
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aaba-PC\\eclipse-workspace\\ScenarioCucumber\\driver\\Chrome_83\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\Aaba-PC\\eclipse-workspace\\DemoGuruTelecom\\driver\\chromedriver.exe");
 		d = new ChromeDriver();
 		d.get("http://demo.guru99.com/telecom/");
 		d.manage().window().maximize();
